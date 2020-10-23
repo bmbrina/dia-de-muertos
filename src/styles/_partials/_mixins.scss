@@ -1,0 +1,47 @@
+/**
+* Responsive utilities
+*/
+@mixin media-max-width($width) {
+	@media (max-width: $width) {
+		@content;
+	}
+}
+
+@mixin media-min-width($width) {
+	@media (min-width: $width) {
+		@content;
+	}
+}
+
+/**
+* Mobile first breakpoints
+*/
+@mixin breakpoint-phone {
+	@include media-min-width(375px) {
+		@content;
+	}
+}
+
+@mixin breakpoint-tablet {
+	@include media-min-width(768px) {
+		@content;
+	}
+}
+
+@mixin breakpoint-laptop {
+	@include media-min-width(1024px) {
+		@content;
+	}
+}
+
+@mixin breakpoint-desktop {
+	@include media-min-width(1280px) {
+		@content;
+	}
+}
+
+@mixin breakpoint-hd {
+	@include media-min-width(1440px) {
+		@content;
+	}
+}

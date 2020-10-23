@@ -1,1 +1,8 @@
-@import 'reset';
+@import '_partials/reset';
+@import '_partials/fonts';
+@import '_partials/mixins';
+@import '_partials/colors';
+
+body {
+	font-size: 16px;
+}
