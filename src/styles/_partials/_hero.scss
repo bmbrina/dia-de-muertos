@@ -1,0 +1,43 @@
+.hero {
+	background-image: url('../../images/lights-mobile.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	position: relative;
+
+	&__container {
+		text-align: center;
+	}
+
+	&__title {
+		margin: 0 auto;
+		max-width: 270px;
+	}
+
+	&__subtitle {
+		margin: 10px 0;
+	}
+
+	&__separator {
+		background-color: $color-green;
+		border-color: $color-green;
+		color: $color-green;
+		margin: 50px auto;
+		width: 20%;
+	}
+
+	&__description {
+		margin-bottom: 30px;
+	}
+
+	&__description-title {
+		font-size: 18px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+
+	&__description-text {
+		line-height: 21px;
+		margin-bottom: 20px;
+	}
+}

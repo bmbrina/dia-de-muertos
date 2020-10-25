@@ -4,12 +4,15 @@ const AppContext = createContext()
 const AppCtxProvider = AppContext.Provider
 
 const AppProvider = ({ children }) => {
-  const [greeting, setGreeting] = useState('World')
+  const [items, setItems] = useState([])
+  const [selectedItem, setSelectedItem] = useState('altar')
   return (
     <AppCtxProvider
       value={{
-        greeting,
-        setGreeting
+        items,
+        selectedItem,
+        setItems,
+        setSelectedItem
       }}
     >
       {children}

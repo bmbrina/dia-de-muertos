@@ -86,6 +86,7 @@
     "react/jsx-uses-vars": 2,
     "react/no-danger": 0,
     "react/no-find-dom-node": 2,
+    "react/no-array-index-key": "off",
     "react/no-is-mounted": 2,
     "react/no-string-refs": 2,
     "react/no-unescaped-entities": 0,

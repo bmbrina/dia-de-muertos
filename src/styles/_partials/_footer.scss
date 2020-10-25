@@ -1,0 +1,17 @@
+.footer {
+	color: $color-purple-neon;
+	font-size: 12px;
+	padding: 20px 0;
+	text-align: center;
+
+	&__link {
+		color: $color-green;
+
+		& + & {
+			&::before {
+				color: $color-purple-neon;
+				content: ' & ';
+			}
+		}
+	}
+}

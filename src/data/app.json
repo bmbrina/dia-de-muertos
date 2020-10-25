@@ -1,0 +1,135 @@
+{
+  "hero": {
+    "title": "Dia de Muertos",
+    "subtitle": "November 1-2",
+    "description": {
+      "title": "What's celebrated on these days?",
+      "text": [
+        "The Day of the Dead is a Mexican holiday where family and friends gather to pray and remember those who have died.",
+        "This centuries-old ritual was celebrated by different indigenous groups and was later adapted to appease the Catholic rule after the Spanish colonization.",
+        "Death is a natural part of the natural cycle. So this day is not about mourning, rather it's viewed as a celebration because it's believed that your loved ones awaken and come to visit their relatives."
+      ]
+    }
+  },
+  "altar": {
+    "instruction": "Click on any element to learn more",
+    "elements": {
+      "altar": {
+        "name": "Altar",
+        "description": [
+          "As illustrated on the image, the altars can have different levels, these three levels represent Heaven, Earth and the Underworld.",
+          "The altar is also known as an <i>ofrenda</i>. These are typically dedicated to one person who has passed away and to which you want to conmemorate on this day.",
+          "Each item placed onn the altar, has a symbolic representations of the four elements (air, earth, fire and water).",
+          "You can click on the different items to learn more about each one or navigate through the arrows."
+        ]
+      },
+      "candles": {
+        "name": "Candles",
+        "description": [
+          "These are used to light the way back home for the dead who come visit."
+        ]
+      },
+      "picture": {
+        "name": "Pictures and Personal Objects",
+        "description": [
+          "It's customary to add pictures of the deceased and add some of their favorite objects from when they were alive."
+        ]
+      },
+      "bread": {
+        "name": "Pan de Muerto",
+        "description": [
+          "This bread has a very particular shape full of history and meaning. Its origins go back to the Prehispanic era where indigenous people used to sacrifice hearts of maidens to their gods. When the colonization happened, Catholic priests came up with the idea of this bread to still let the people practice their beliefs without all the violence involved in actual human sacrifices.",
+          "The circular shape of the bread represents the cycle of life and death for humans. In the center you can see a small ball, which represents the heart or the skull of the deceased. The lines above are in the shape of a cross, which symbolizes the bones which we are made of; they also make reference to the tears of the dead.",
+          "In some myths, the four lines also make reference to the four cardinal points in Aztec calendars, which are dedicated to the old gods: Quetzalcóatl, Xipetotec, Tláloc y Tezcatlipoca."
+        ]
+      },
+      "food": {
+        "name": "Food and Beverages",
+        "description": [
+          "It's customary to add the favorite food and beverages of the deceased one to which the altar is dedicated to.",
+          "This way they have some comfort food to enjoy after their long journey."
+        ]
+      },
+      "skull": {
+        "name": "Sugar Skulls",
+        "description": [
+          " A big part of this celebration are skulls. This goes back to Mesoamerican cultures, where the skulls of the deceased were preserved and showcased in different rituals as a symbol.",
+          "With the colonization, this practice was substituted with sugar skulls as a compromise to still honor the dead.",
+          "The techninque to make them is known as <i>alfeñique</i>, a mixture of sugar, egg white, drops of lemon juice and a plant called <i>chaucle</i>."
+        ]
+      },
+      "water": {
+        "name": "Water",
+        "description": [
+          "It’s customary to receive the deceased with something to drink after their long journey.",
+          "Additionally, you can also add a bowl of water with soap and towels in case the deceased want to wash their hands before eating.",
+          "In older myths, a bowl of water was commonly placed in some rituals because it was believed that water was a gateway to the Underworl."
+        ]
+      },
+      "chocolate": {
+        "name": "Hot Chocolate",
+        "description": [
+          "Hot chocolate is one of the traditional beverages in Mexico, because it’s made of <i>cacao</i>, which is fundamental to the culture because of its Aztec heritage."
+        ]
+      },
+      "banner": {
+        "name": "Tissue Paper",
+        "description": [
+          "Commonly known as <i>papel picado</i> because of the various figures they have.",
+          "The Mesoamerican civilization used paper in their rituals, mainly to make figurines representing the elemental gods. But in later years it was used for everything, from recording history to adorning funeral pyres.",
+          "With the Spanish influence, they evolved to be used as decorations and they added colors to represent different things."
+        ],
+        "colors": [
+          {
+            "name": "Orange",
+            "description": "It represents mourning"
+          },
+          {
+            "name": "Purple",
+            "description": "It represents religion"
+          },
+          {
+            "name": "Blue",
+            "description": "It represents the death of those who died by water"
+          },
+          {
+            "name": "Red",
+            "description": "It represents warriors and women who died during childbirth"
+          },
+          {
+            "name": "Green",
+            "description": "It represents the young"
+          },
+          {
+            "name": "White",
+            "description": "It represents the children"
+          },
+          {
+            "name": "Yellow",
+            "description": "It represents the eldery"
+          },
+          {
+            "name": "Black",
+            "description": "It represents the Underworld"
+          }
+        ]
+      },
+      "flower": {
+        "name": "Mexican Marigold",
+        "description": [
+          "<i>Cempasúchil (náhuatl)</i>. This bright-orange flower is meant to help guide the spirits of the dead to the land of the living."
+        ]
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Barbara Brina",
+      "url": "https://github.com/bmbrina"
+    },
+    {
+      "name": "Marisol Gallegos",
+      "url": "https://github.com/lichatte"
+    }
+  ]
+}

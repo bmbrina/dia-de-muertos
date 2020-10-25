@@ -1,0 +1,91 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1368.98 1336.6">
+    <defs>
+        <style>.a{fill:url(#a);}.b{isolation:isolate;}.c{mask:url(#b);}.d,.i,.m{opacity:0.3;}.d,.e,.f,.g,.h,.i,.j,.k,.l,.m,.n,.o,.p{mix-blend-mode:hard-light;}.d{fill:url(#c);}.e,.f,.g,.h,.j,.k,.l,.p{opacity:0.5;}.e{fill:url(#d);}.f{fill:url(#e);}.g{fill:url(#f);}.h{fill:url(#g);}.i{fill:url(#h);}.j{fill:url(#i);}.k{fill:url(#j);}.l{fill:url(#k);}.m{fill:url(#l);}.n,.o{opacity:0.2;}.n{fill:url(#m);}.o{fill:url(#n);}.p{fill:url(#o);}</style>
+        <linearGradient id="a" x1="683" y1="1584.61" x2="683" gradientUnits="userSpaceOnUse">
+            <stop offset="0"/>
+            <stop offset="0.22" stop-color="#030303"/>
+            <stop offset="0.35" stop-color="#0b0b0b"/>
+            <stop offset="0.46" stop-color="#1a1a1a"/>
+            <stop offset="0.57" stop-color="#2f2f2f"/>
+            <stop offset="0.66" stop-color="#494949"/>
+            <stop offset="0.75" stop-color="#6b6b6b"/>
+            <stop offset="0.83" stop-color="#929292"/>
+            <stop offset="0.91" stop-color="#bfbfbf"/>
+            <stop offset="0.98" stop-color="#f1f1f1"/>
+            <stop offset="1" stop-color="#fff"/>
+        </linearGradient>
+        <mask id="b" x="0" y="0" width="1368.98" height="1584.61" maskUnits="userSpaceOnUse">
+            <rect class="a" width="1366" height="1584.61"/>
+        </mask>
+        <radialGradient id="c" cx="1227.33" cy="1295.47" r="272.33" gradientTransform="translate(-220.55 -522.41) scale(0.98 0.96)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#71b9fa"/>
+            <stop offset="0.04" stop-color="#6ba8f4" stop-opacity="0.9"/>
+            <stop offset="0.15" stop-color="#5f85e6" stop-opacity="0.69"/>
+            <stop offset="0.25" stop-color="#5366da" stop-opacity="0.51"/>
+            <stop offset="0.36" stop-color="#4a4cd0" stop-opacity="0.35"/>
+            <stop offset="0.48" stop-color="#4237c8" stop-opacity="0.22"/>
+            <stop offset="0.59" stop-color="#3c26c1" stop-opacity="0.12"/>
+            <stop offset="0.72" stop-color="#381abd" stop-opacity="0.05"/>
+            <stop offset="0.85" stop-color="#3613ba" stop-opacity="0.01"/>
+            <stop offset="1" stop-color="#3511b9" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="d" cx="792.6" cy="1089.06" r="175.07" gradientTransform="translate(-220.55 -522.41) scale(0.98 0.96)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#71b9fa"/>
+            <stop offset="0.19" stop-color="#628fea" stop-opacity="0.75"/>
+            <stop offset="0.41" stop-color="#5263d9" stop-opacity="0.49"/>
+            <stop offset="0.61" stop-color="#463fcb" stop-opacity="0.28"/>
+            <stop offset="0.78" stop-color="#3d26c1" stop-opacity="0.13"/>
+            <stop offset="0.91" stop-color="#3717bb" stop-opacity="0.03"/>
+            <stop offset="1" stop-color="#3511b9" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="e" cx="747.04" cy="1618.06" r="272.33" xlink:href="#c"/>
+        <radialGradient id="f" cx="1262.44" cy="992.55" r="170.4" xlink:href="#c"/>
+        <radialGradient id="g" cx="661.77" cy="775.34" r="170.4" xlink:href="#c"/>
+        <radialGradient id="h" cx="526.14" cy="1295.47" r="277.13" gradientTransform="translate(-220.55 -522.41) scale(0.98 0.96)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#ffff40"/>
+            <stop offset="0.02" stop-color="#fcf73e" stop-opacity="0.94"/>
+            <stop offset="0.09" stop-color="#f4de3a" stop-opacity="0.74"/>
+            <stop offset="0.17" stop-color="#edc735" stop-opacity="0.57"/>
+            <stop offset="0.25" stop-color="#e6b431" stop-opacity="0.41"/>
+            <stop offset="0.34" stop-color="#e1a32e" stop-opacity="0.28"/>
+            <stop offset="0.43" stop-color="#dd962c" stop-opacity="0.18"/>
+            <stop offset="0.53" stop-color="#d98c2a" stop-opacity="0.1"/>
+            <stop offset="0.64" stop-color="#d78528" stop-opacity="0.04"/>
+            <stop offset="0.78" stop-color="#d58027" stop-opacity="0.01"/>
+            <stop offset="1" stop-color="#d57f27" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="i" cx="1384.43" cy="694.4" r="150.22" xlink:href="#h"/>
+        <radialGradient id="j" cx="1038.48" cy="1189.53" r="219.61" gradientTransform="translate(-220.55 -522.41) scale(0.98 0.96)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#db01fa"/>
+            <stop offset="0.01" stop-color="#da01fa" stop-opacity="0.99"/>
+            <stop offset="0.38" stop-color="#bf0ce7" stop-opacity="0.57"/>
+            <stop offset="0.68" stop-color="#ab14d9" stop-opacity="0.26"/>
+            <stop offset="0.89" stop-color="#9f19d0" stop-opacity="0.07"/>
+            <stop offset="1" stop-color="#9a1bcd" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="k" cx="1267.38" cy="1576.69" r="359.79" xlink:href="#h"/>
+        <radialGradient id="l" cx="505.48" cy="953.15" r="279.71" xlink:href="#h"/>
+        <radialGradient id="m" cx="850.27" cy="1503.56" r="110.3" xlink:href="#j"/>
+        <radialGradient id="n" cx="1478.84" cy="935.7" r="138.9" xlink:href="#j"/>
+        <radialGradient id="o" cx="909.4" cy="729.69" r="138.9" xlink:href="#j"/>
+    </defs>
+    <g class="b">
+        <g class="c">
+            <ellipse class="d" cx="978.39" cy="721.24" rx="266.03" ry="261.43"/>
+            <ellipse class="e" cx="553.72" cy="523.08" rx="171.02" ry="168.07"/>
+            <ellipse class="f" cx="509.21" cy="1030.92" rx="266.03" ry="261.43"/>
+            <ellipse class="g" cx="1012.69" cy="430.43" rx="166.45" ry="163.58"/>
+            <ellipse class="h" cx="425.92" cy="221.91" rx="166.45" ry="163.58"/>
+            <ellipse class="i" cx="293.42" cy="721.24" rx="270.72" ry="266.04"/>
+            <ellipse class="j" cx="1131.86" cy="144.21" rx="146.75" ry="144.21"/>
+            <ellipse class="k" cx="793.91" cy="619.53" rx="214.53" ry="210.83"/>
+            <ellipse class="l" cx="1017.52" cy="991.2" rx="351.46" ry="345.39"/>
+            <ellipse class="m" cx="273.24" cy="392.62" rx="273.24" ry="268.52"/>
+            <ellipse class="n" cx="610.05" cy="921" rx="107.75" ry="105.89"/>
+            <ellipse class="o" cx="1224.09" cy="375.85" rx="135.69" ry="133.34"/>
+            <ellipse class="p" cx="667.82" cy="178.09" rx="135.69" ry="133.34"/>
+        </g>
+    </g>
+</svg>

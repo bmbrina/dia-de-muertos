@@ -134,8 +134,8 @@ table {
 }
 
 body {
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale; // sass-lint:disable-line no-vendor-prefixes
+	-webkit-font-smoothing: antialiased; // sass-lint:disable-line no-vendor-prefixes
 	line-height: 1;
 }
 

@@ -2,7 +2,33 @@
 @import '_partials/fonts';
 @import '_partials/mixins';
 @import '_partials/colors';
+@import '_partials/icons';
+@import '_partials/animations';
+
+// Components
+@import '_partials/hero';
+@import '_partials/altar';
+@import '_partials/footer';
 
 body {
+	background: linear-gradient(180deg, $color-purple-dark 0%, $color-purple 50%, $color-purple-dark 100%);
+	background-repeat: no-repeat;
+	color: $color-white;
+	font-family: $font-primary;
 	font-size: 16px;
+	font-style: normal;
+}
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.visually-hidden {
+	height: 1px;
+	left: -10000px;
+	overflow: hidden;
+	position: absolute;
+	top: auto;
+	width: 1px;
 }

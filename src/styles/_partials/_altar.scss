@@ -1,0 +1,62 @@
+.altar {
+	padding: 20px 0;
+
+	&__instruction {
+		font-size: 14px;
+		margin-bottom: 20px;
+		opacity: .5;
+		text-align: center;
+	}
+
+	&__box {
+		background-color: $color-purple-neon;
+		margin-bottom: 20px;
+		padding: 30px;
+		position: relative;
+
+		.icon {
+			position: absolute;
+			top: 50%;
+
+			&--arrow-left {
+				left: -15px;
+				transform: translate(0, -50%) rotate(90deg);
+			}
+
+			&--arrow-right {
+				right: -15px;
+				transform: translate(0, -50%) rotate(-90deg);
+			}
+		}
+	}
+}
+
+.item {
+	margin-bottom: 50px;
+
+	&__name {
+		color: $color-green;
+		font-size: 21px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+
+	&__desc {
+		line-height: 21px;
+		margin-bottom: 15px;
+	}
+
+	&__icon {
+		bottom: -40px;
+		height: 100px;
+		left: 50%;
+		position: absolute;
+		transform: translate(-50%, 0);
+		width: 100px;
+
+		&--candles,
+		&--chocolate {
+			bottom: -25px;
+		}
+	}
+}
