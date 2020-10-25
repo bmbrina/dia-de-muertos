@@ -1,5 +1,6 @@
 import React from 'react'
 import svg from '../../images/elements.svg'
+import Banner from './Banner'
 
 const Item = ({ name, description, itemId }) => {
   return (
@@ -8,7 +9,8 @@ const Item = ({ name, description, itemId }) => {
       {description.map((desc, index) => (
         <p className="item__desc" key={index} dangerouslySetInnerHTML={{ __html: desc }} />
       ))}
-      {itemId !== 'altar' && (
+      {itemId === 'banner' && <Banner color="#D63453" />}
+      {(itemId !== 'altar' || itemId !== 'banner') && (
         <svg className={`item__icon item__icon--${itemId}`}>
           <use xlinkHref={`${svg}#${itemId}`} />
         </svg>

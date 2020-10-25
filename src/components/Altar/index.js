@@ -26,7 +26,7 @@ const Altar = () => {
         <div className="altar__box">
           <i
             className={`icon icon--arrow icon--arrow-left ${
-              seletedItemIndex === 0 ? 'hidden' : ''
+              seletedItemIndex === 0 ? 'visually-hidden' : ''
             }`}
             onClick={() => changeItem('left')}
             onKeyPress={() => changeItem('left')}
