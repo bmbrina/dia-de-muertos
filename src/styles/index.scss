@@ -45,7 +45,8 @@ body {
 
 .app {
 	@include breakpoint-tablet {
-		background-image: url('../images/lights-mobile.svg'), linear-gradient(180deg, $color-purple-dark 0%, $color-purple 50%, $color-purple-dark 100%);
+		background-image: url('../images/lights.svg'), linear-gradient(180deg, $color-purple-dark 0%, $color-purple 50%, $color-purple-dark 100%);
+		background-size: 120%;
 	}
 
 	background-image: url('../images/lights-mobile.svg'), linear-gradient(180deg, $color-purple-dark 0%, $color-purple 50%, $color-purple-dark 100%);
