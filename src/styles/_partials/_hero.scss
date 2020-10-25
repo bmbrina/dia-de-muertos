@@ -4,6 +4,7 @@
 
 	&__container {
 		text-align: center;
+		z-index: 2;
 	}
 
 	&__title {
@@ -39,6 +40,8 @@
 	}
 
 	@include breakpoint-tablet {
+		padding-top: 250px;
+
 		&__title {
 			max-width: 500px;
 		}
@@ -64,5 +67,26 @@
 			font-size: 18px;
 			line-height: 24px;
 		}
+	}
+}
+
+.background-banner {
+	position: absolute;
+	width: 80%;
+	top: -20px;
+	
+	&:nth-of-type(1) {
+		opacity: 0.4;
+		right: -80px;
+	}
+
+	&:nth-of-type(2) {
+		left: -40px;
+	}
+
+	@include breakpoint-laptop {
+		top: -150px;
+		max-width: 1200px;
+		width: 75%;
 	}
 }

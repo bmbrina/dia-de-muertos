@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import { AppContext } from '../../context/AppContext'
 import Item from './Item'
+import AltarSvg from '../../images/altar.svg'
 import data from '../../data/app.json'
 
 const Altar = () => {
@@ -21,6 +22,7 @@ const Altar = () => {
     <section className="altar">
       <div className="altar__container container">
         <div className="altar__illustration">
+          <img className="altar" src={AltarSvg} alt="" />
           <p className="altar__instruction">{altar.instruction}</p>
         </div>
         <div className="altar__box">
