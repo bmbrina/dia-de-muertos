@@ -1,16 +1,25 @@
 .altar {
-	padding: 20px 0;
+	margin: 20px 0;
+
+	&__container {
+		margin-bottom: 20px;
+	}
 
 	&__instruction {
 		font-size: 14px;
-		margin-bottom: 20px;
+		margin: 0 0 20px;
 		opacity: .5;
 		text-align: center;
 	}
 
+	&__illustration {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+
 	&__box {
 		background-color: $color-purple-neon;
-		margin-bottom: 20px;
 		padding: 30px;
 		position: relative;
 
@@ -29,24 +38,24 @@
 			}
 		}
 	}
-}
 
-.item {
-	margin-bottom: 50px;
+	&__item {
+		margin-bottom: 50px;
+	}
 
-	&__name {
+	&__item-name {
 		color: $color-green;
 		font-size: 21px;
 		font-weight: bold;
 		margin-bottom: 20px;
 	}
 
-	&__desc {
+	&__item-desc {
 		line-height: 21px;
 		margin-bottom: 15px;
 	}
 
-	&__icon {
+	&__item-icon {
 		bottom: -40px;
 		height: 100px;
 		left: 50%;
@@ -57,6 +66,30 @@
 		&--candles,
 		&--chocolate {
 			bottom: -25px;
+		}
+	}
+
+	@include breakpoint-tablet {
+		margin: 50px 0;
+	}
+
+	@include breakpoint-laptop {
+		&__container {
+			display: flex;
+		}
+
+		&__illustration,
+		&__box {
+			width: 50%;
+		}
+
+		&__illustration {
+			flex-direction: column-reverse;
+			padding: 0 20px;
+		}
+
+		&__instruction {
+			margin: 20px 0 0 ;
 		}
 	}
 }

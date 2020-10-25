@@ -4,14 +4,14 @@ import Banner from './Banner'
 
 const Item = ({ name, description, itemId }) => {
   return (
-    <div className="item">
-      <p className="item__name">{name}</p>
+    <div className="altar__item">
+      <p className="altar__item-name">{name}</p>
       {description.map((desc, index) => (
-        <p className="item__desc" key={index} dangerouslySetInnerHTML={{ __html: desc }} />
+        <p className="altar__item-desc" key={index} dangerouslySetInnerHTML={{ __html: desc }} />
       ))}
       {itemId === 'banner' && <Banner color="#D63453" />}
       {(itemId !== 'altar' || itemId !== 'banner') && (
-        <svg className={`item__icon item__icon--${itemId}`}>
+        <svg className={`altar__item-icon altar__item-icon--${itemId}`}>
           <use xlinkHref={`${svg}#${itemId}`} />
         </svg>
       )}

@@ -11,8 +11,6 @@
 @import '_partials/footer';
 
 body {
-	background: linear-gradient(180deg, $color-purple-dark 0%, $color-purple 50%, $color-purple-dark 100%);
-	background-repeat: no-repeat;
 	color: $color-white;
 	font-family: $font-primary;
 	font-size: 16px;
@@ -21,8 +19,19 @@ body {
 
 .container {
 	margin: 0 auto;
-	max-width: 1170px;
 	width: 90%;
+
+	@include breakpoint-tablet {
+		width: 650px;
+	}
+
+	@include breakpoint-laptop {
+		width: 900px;
+	}
+
+	@include breakpoint-desktop {
+		width: 1170px;
+	}
 }
 
 .visually-hidden {
@@ -32,4 +41,15 @@ body {
 	position: absolute;
 	top: auto;
 	width: 0;
+}
+
+.app {
+	background-image: url('../images/lights-mobile.svg'), linear-gradient(180deg, $color-purple-dark 0%, $color-purple 50%, $color-purple-dark 100%);
+	background-position-x: center;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+
+	@include breakpoint-tablet {
+		background-image: url('../images/lights-mobile.svg'), linear-gradient(180deg, $color-purple-dark 0%, $color-purple 50%, $color-purple-dark 100%);
+	}
 }

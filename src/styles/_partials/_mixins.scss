@@ -16,12 +16,6 @@
 /**
 * Mobile first breakpoints
 */
-@mixin breakpoint-phone {
-	@include media-min-width(375px) {
-		@content;
-	}
-}
-
 @mixin breakpoint-tablet {
 	@include media-min-width(768px) {
 		@content;

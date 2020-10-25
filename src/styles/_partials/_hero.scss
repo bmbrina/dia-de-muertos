@@ -1,7 +1,4 @@
 .hero {
-	background-image: url('../../images/lights-mobile.svg');
-	background-repeat: no-repeat;
-	background-size: cover;
 	padding-top: 100px;
 	position: relative;
 
@@ -39,5 +36,33 @@
 	&__description-text {
 		line-height: 21px;
 		margin-bottom: 20px;
+	}
+
+	@include breakpoint-tablet {
+		&__title {
+			max-width: 500px;
+		}
+
+		&__subtitle {
+			font-size: 24px;
+		}
+
+		&__separator {
+			width: 10%;
+		}
+
+		&__description {
+			margin: 0 auto 50px;
+			max-width: 450px;
+		}
+
+		&__description-title {
+			font-size: 21px;
+		}
+
+		&__description-text {
+			font-size: 18px;
+			line-height: 24px;
+		}
 	}
 }
