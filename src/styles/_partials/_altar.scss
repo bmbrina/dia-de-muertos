@@ -47,6 +47,11 @@
 	&__item-desc {
 		line-height: 21px;
 		margin-bottom: 15px;
+
+		span {
+			font-weight: bold;
+			text-transform: capitalize;
+		}
 	}
 
 	&__item-icon {

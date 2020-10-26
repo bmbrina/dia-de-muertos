@@ -79,40 +79,16 @@
           "The Mesoamerican civilization used paper in their rituals, mainly to make figurines representing the elemental gods. But in later years it was used for everything, from recording history to adorning funeral pyres.",
           "With the Spanish influence, they evolved to be used as decorations and they added colors to represent different things."
         ],
-        "colors": [
-          {
-            "name": "Orange",
-            "description": "It represents mourning"
-          },
-          {
-            "name": "Purple",
-            "description": "It represents religion"
-          },
-          {
-            "name": "Blue",
-            "description": "It represents the death of those who died by water"
-          },
-          {
-            "name": "Red",
-            "description": "It represents warriors and women who died during childbirth"
-          },
-          {
-            "name": "Green",
-            "description": "It represents the young"
-          },
-          {
-            "name": "White",
-            "description": "It represents the children"
-          },
-          {
-            "name": "Yellow",
-            "description": "It represents the eldery"
-          },
-          {
-            "name": "Black",
-            "description": "It represents the Underworld"
-          }
-        ]
+        "colors": {
+					"red": "It represents warriors and women who died during childbirth.",
+					"orange": "It represents mourning.",
+					"yellow": "It represents the eldery.",
+					"green": "It represents the young.",
+					"blue": "It represents the death of those who died by water.",
+					"purple": "It represents religion.",
+					"white": "It represents the children.",
+					"black": "It represents the Underworld."
+				}
       },
       "flower": {
         "name": "Mexican Marigold",
@@ -121,6 +97,16 @@
         ]
       }
     }
+	},
+	"bannerColors": {
+    "red": "#D63453",
+    "orange": "#ECBB34",
+    "yellow": "#FEFC3F",
+    "green": "#7DB293",
+    "blue": "#7DD8FB",
+    "purple": "#3D124D",
+    "white": "#EFEFEF",
+    "black": "#121212"
   },
   "authors": [
     {

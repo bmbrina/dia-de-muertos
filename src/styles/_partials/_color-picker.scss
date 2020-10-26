@@ -1,0 +1,23 @@
+.color-picker {
+	&__list {
+		display: flex;
+		justify-content: center;
+	}
+
+	&__item {
+		cursor: pointer;
+		height: 30px;
+		width: 30px;
+
+		&.selected {
+			border: 2px solid $color-green;
+		}
+	}
+
+	&__text {
+		font-size: 14px;
+		margin-top: 10px;
+		opacity: .5;
+		text-align: center;
+	}
+}
