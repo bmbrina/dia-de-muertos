@@ -5,6 +5,10 @@
 @import '_partials/icons';
 @import '_partials/animations';
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	color: $color-white;
 	font-family: $font-primary;

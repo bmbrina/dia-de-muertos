@@ -9,8 +9,12 @@
 		height: 30px;
 		width: 30px;
 
+		&:active,
+		&:focus,
+		&:hover,
 		&.selected {
 			border: 2px solid $color-green;
+			outline: 0;
 		}
 	}
 

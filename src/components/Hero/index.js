@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Banners from '../Banners'
 import data from '../../data/app.json'
 import Title from '../../images/title.svg'
+import { AppContext } from '../../context/AppContext'
+
+const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
 
 const Hero = () => {
+  const { elementsRefs } = useContext(AppContext)
   const { hero } = data
   const { title, subtitle, description } = hero
 
@@ -25,7 +29,15 @@ const Hero = () => {
             </p>
           ))}
         </div>
-        <i className="icon icon--arrow bounce" />
+        <i
+          className="icon icon--arrow bounce"
+          onClick={() => scrollToRef(elementsRefs.altar)}
+          onKeyPress={() => scrollToRef(elementsRefs.altar)}
+          role="button"
+          tabIndex="0"
+        >
+          <span className="visually-hidden">Scroll To Altar</span>
+        </i>
       </div>
     </section>
   )

@@ -1,11 +1,14 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect, useRef } from 'react'
 import { AppContext } from '../../context/AppContext'
 import Item from './Item'
 import AltarSvg from '../../images/altar.svg'
 import data from '../../data/app.json'
 
 const Altar = () => {
-  const { items, selectedItem, setItems, setSelectedItem } = useContext(AppContext)
+  const altarRef = useRef(null)
+  const { items, selectedItem, appendElementRef, setItems, setSelectedItem } = useContext(
+    AppContext
+  )
   const seletedItemIndex = items.indexOf(selectedItem)
   const { altar } = data
   const { elements } = altar
@@ -16,13 +19,14 @@ const Altar = () => {
 
   useEffect(() => {
     setItems(Object.keys(elements))
+    appendElementRef({ altar: altarRef })
   }, [elements, setItems])
 
   return (
-    <section className="altar">
+    <section className="altar" ref={altarRef}>
       <div className="altar__container container">
         <div className="altar__illustration">
-          <img className="altar" src={AltarSvg} alt="" />
+          <img src={AltarSvg} alt="" />
           <p className="altar__instruction">{altar.instruction}</p>
         </div>
         <div className="altar__box">

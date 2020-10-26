@@ -38,8 +38,10 @@
       "bread": {
         "name": "Pan de Muerto",
         "description": [
-          "This bread has a very particular shape full of history and meaning. Its origins go back to the Prehispanic era where indigenous people used to sacrifice hearts of maidens to their gods. When the colonization happened, Catholic priests came up with the idea of this bread to still let the people practice their beliefs without all the violence involved in actual human sacrifices.",
-          "The circular shape of the bread represents the cycle of life and death for humans. In the center you can see a small ball, which represents the heart or the skull of the deceased. The lines above are in the shape of a cross, which symbolizes the bones which we are made of; they also make reference to the tears of the dead.",
+          "This bread has a very particular shape full of history and meaning. Its origins go back to the Prehispanic era where indigenous people used to sacrifice hearts of maidens to their gods.",
+          "When the colonization happened, Catholic priests came up with the idea of this bread to still let the people practice their beliefs without all the violence involved in actual human sacrifices.",
+          "The circular shape of the bread represents the cycle of life and death for humans. In the center you can see a small ball, which represents the heart or the skull of the deceased.",
+          "The lines above are in the shape of a cross, which symbolizes the bones which we are made of; they also make reference to the tears of the dead.",
           "In some myths, the four lines also make reference to the four cardinal points in Aztec calendars, which are dedicated to the old gods: Quetzalcóatl, Xipetotec, Tláloc y Tezcatlipoca."
         ]
       },
@@ -63,7 +65,7 @@
         "description": [
           "It’s customary to receive the deceased with something to drink after their long journey.",
           "Additionally, you can also add a bowl of water with soap and towels in case the deceased want to wash their hands before eating.",
-          "In older myths, a bowl of water was commonly placed in some rituals because it was believed that water was a gateway to the Underworl."
+          "In older myths, a bowl of water was commonly placed in some rituals because it was believed that water was a gateway to the Underworld."
         ]
       },
       "chocolate": {
