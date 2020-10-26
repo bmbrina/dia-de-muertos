@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useRef } from 'react'
 import { AppContext } from '../../context/AppContext'
 import Item from './Item'
-import AltarSvg from '../../images/altar.svg'
 import data from '../../data/app.json'
+import Illustration from './Illustration'
 
 const Altar = () => {
   const altarRef = useRef(null)
@@ -26,7 +26,7 @@ const Altar = () => {
     <section className="altar" ref={altarRef}>
       <div className="altar__container container">
         <div className="altar__illustration">
-          <img src={AltarSvg} alt="" />
+          <Illustration />
           <p className="altar__instruction">{altar.instruction}</p>
         </div>
         <div className="altar__box">

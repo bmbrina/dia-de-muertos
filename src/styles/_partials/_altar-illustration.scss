@@ -1,0 +1,326 @@
+@keyframes tinkle {
+	0% {
+		transform: scale(.95);
+	}
+
+	50% {
+		transform: scale(1.05);
+	}
+
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes glow {
+	0% {
+		transform: scale(.7, 1);
+	}
+
+	25% {
+		transform: scale(1.1, 1);
+	}
+
+	50% {
+		transform: scale(.8, .9);
+	}
+
+	60% {
+		transform: scale(.9, 1);
+	}
+
+	90% {
+		transform: scale(1, .9);
+	}
+
+	to {
+		transform: scale(1, 1);
+	}
+}
+
+@keyframes steam-one {
+	0% {
+		opacity: .9;
+		transform: translateY(50%) translateX(55%) scale(.25);
+
+	}
+
+	to {
+		opacity: 0;
+		transform: translateY(-50%) translateX(56%) scale(1);
+
+	}
+}
+
+@keyframes steam-two {
+	0% {
+		opacity: .9;
+		transform: translateY(40%) translateX(55%) scale(.25);
+
+	}
+
+	to {
+		opacity: 0;
+		transform: translateY(-45%) translateX(50%) scale(1);
+	}
+}
+
+#prefix__candles .prefix__fire,
+#prefix__candles circle,
+.prefix__steam {
+	transform-box: fill-box;
+	transform-origin: center;
+}
+
+.prefix__steam {
+	fill: #eee;
+	opacity: 0;
+}
+
+#prefix__candles .prefix__fire,
+#prefix__candles circle {
+	animation: glow 1.5s ease-in-out infinite alternate;
+	filter: url('#prefix__dropshadow');
+}
+
+#prefix__candles circle {
+	animation: tinkle 1.5s ease-in-out infinite alternate;
+	fill: #F1C631;
+	opacity: .4;
+}
+
+.prefix__cls-2 {
+	fill: #1C002A;
+}
+
+.prefix__cls-3 {
+	fill: #450A4D;
+}
+
+.prefix__cls-54,
+.prefix__cls-80 {
+	mix-blend-mode: multiply;
+}
+
+.prefix__cls-5,
+.prefix__cls-54 {
+	fill: #672381;
+}
+
+.prefix__cls-6 {
+	fill: #21D8FB;
+}
+
+.prefix__cls-7 {
+	fill: #5EB292;
+}
+
+.prefix__cls-8 {
+	fill: #EEE;
+}
+
+.prefix__cls-9 {
+	fill: #230034;
+}
+
+.prefix__cls-10 {
+	fill: #F05B25;
+}
+
+.prefix__cls-11 {
+	fill: #F47D21;
+}
+
+.prefix__cls-12 {
+	fill: #FCBB19;
+}
+
+.prefix__cls-14 {
+	fill: #F7921F;
+}
+
+.prefix__cls-15 {
+	fill: #F99F1F;
+}
+
+.prefix__cls-16 {
+	fill: #F27024;
+}
+
+.prefix__cls-17 {
+	fill: #F79623;
+}
+
+.prefix__cls-18 {
+	fill: #0097A2;
+}
+
+.prefix__cls-19 {
+	fill: #FF2B79;
+}
+
+.prefix__cls-20 {
+	fill: #FF95C9;
+}
+
+.prefix__cls-21 {
+	fill: #FF84B7;
+}
+
+.prefix__cls-29 {
+	fill: #860D43;
+}
+
+.prefix__cls-30 {
+	fill: #00777F;
+}
+
+.prefix__cls-31 {
+	fill: #FFD901;
+}
+
+.prefix__cls-33 {
+	fill: #49D3C9;
+}
+
+.prefix__cls-35 {
+	fill: #0072BA;
+}
+
+.prefix__cls-36 {
+	fill: #0098DB;
+}
+
+.prefix__cls-46 {
+	fill: #0063A0;
+}
+
+.prefix__cls-47 {
+	fill: #27A07B;
+}
+
+.prefix__cls-48 {
+	fill: #CE2C5C;
+}
+
+.prefix__cls-49 {
+	fill: #F73153;
+}
+
+.prefix__cls-50 {
+	fill: #FFA0B2;
+}
+
+.prefix__cls-52 {
+	fill: #FFFCE6;
+}
+
+.prefix__cls-53 {
+	fill: #DDA277;
+}
+
+.prefix__cls-54 {
+	opacity: .16;
+}
+
+.prefix__cls-55,
+.prefix__cls-74 {
+	fill: #FFF;
+}
+
+.prefix__cls-55 {
+	mix-blend-mode: soft-light;
+}
+
+.prefix__cls-56 {
+	fill: #CECECE;
+}
+
+.prefix__cls-57 {
+	fill: #F5EFEC;
+}
+
+.prefix__cls-58 {
+	fill: #3D3C3C;
+}
+
+.prefix__cls-61 {
+	fill: #8B6037;
+}
+
+.prefix__cls-62 {
+	fill: #A97345;
+}
+
+.prefix__cls-63 {
+	fill: #333232;
+}
+
+.prefix__cls-64 {
+	fill: #FFC60A;
+}
+
+.prefix__cls-65 {
+	fill: #FFE9C1;
+}
+
+.prefix__cls-66 {
+	fill: #FFDBAC;
+}
+
+.prefix__cls-67 {
+	fill: #E2C39A;
+}
+
+.prefix__cls-68 {
+	fill: #112129;
+}
+
+.prefix__cls-73 {
+	fill: #9E5245;
+}
+
+.prefix__cls-76 {
+	fill: #C0E2EA;
+}
+
+.prefix__cls-77 {
+	fill: #A1BDC6;
+}
+
+.prefix__cls-79 {
+	fill: #A8D9E8;
+}
+
+.prefix__cls-80 {
+	fill: #6B3981;
+	opacity: .08;
+}
+
+.prefix__cls-84 {
+	fill: #FFCE12;
+}
+
+.prefix__cls-86 {
+	fill: #FC40A4;
+}
+
+.prefix__cls-87 {
+	fill: #240000;
+}
+
+.prefix__cls-88 {
+	fill: #F79A22;
+}
+
+.prefix__cls-90 {
+	fill: #CB9466;
+}
+
+.prefix__cls-91 {
+	fill: #B77B58;
+}
+
+.prefix__cls-92 {
+	fill: #B97E52;
+}
