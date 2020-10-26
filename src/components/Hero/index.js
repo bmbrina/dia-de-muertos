@@ -1,4 +1,5 @@
 import React from 'react'
+import Banners from '../Banners'
 import data from '../../data/app.json'
 import Title from '../../images/title.svg'
 
@@ -8,6 +9,7 @@ const Hero = () => {
 
   return (
     <section className="hero">
+      <Banners />
       <div className="hero__container container">
         <h1>
           <img className="hero__title" src={Title} alt={title} />

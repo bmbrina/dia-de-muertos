@@ -2,7 +2,7 @@
 	margin: 20px 0;
 
 	&__container {
-		margin-bottom: 20px;
+		margin-bottom: 50px;
 	}
 
 	&__instruction {
@@ -10,12 +10,6 @@
 		margin: 0 0 20px;
 		opacity: .5;
 		text-align: center;
-	}
-
-	&__illustration {
-		align-items: center;
-		display: flex;
-		flex-direction: column;
 	}
 
 	&__box {
@@ -84,7 +78,6 @@
 		}
 
 		&__illustration {
-			flex-direction: column-reverse;
 			padding: 0 20px;
 		}
 

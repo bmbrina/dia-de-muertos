@@ -1,0 +1,20 @@
+.banner {
+	position: absolute;
+	top: -20px;
+	width: 80%;
+
+	&--right {
+		opacity: .4;
+		right: -80px;
+	}
+
+	&--left {
+		left: -40px;
+	}
+
+	@include breakpoint-laptop {
+		max-width: 1050px;
+		top: -150px;
+		width: 75%;
+	}
+}

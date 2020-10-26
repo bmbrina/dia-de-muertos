@@ -5,11 +5,6 @@
 @import '_partials/icons';
 @import '_partials/animations';
 
-// Components
-@import '_partials/hero';
-@import '_partials/altar';
-@import '_partials/footer';
-
 body {
 	color: $color-white;
 	font-family: $font-primary;
@@ -56,3 +51,9 @@ body {
 	overflow: hidden;
 	position: relative;
 }
+
+// Components
+@import '_partials/hero';
+@import '_partials/banners';
+@import '_partials/altar';
+@import '_partials/footer';
