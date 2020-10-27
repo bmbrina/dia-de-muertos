@@ -1,5 +1,3 @@
-
-
 .illustration {
 	overflow: visible;
 
@@ -13,7 +11,7 @@
 
 	&__candles {
 		circle,
-		.fire {
+		.illustrations__candles-fire {
 			animation: glow 1.5s ease-in-out infinite alternate;
 			filter: url('#dropshadow');
 			transform-box: fill-box;
@@ -36,23 +34,21 @@
 		}
 	}
 
-	&__flower {
-		.flower {
-			animation: squeeze 3s ease-in-out infinite alternate;
-			transform-box: fill-box;
-			transform-origin: center;
+	&__flower-item {
+		animation: squeeze 3s ease-in-out infinite alternate;
+		transform-box: fill-box;
+		transform-origin: center;
 
-			&:nth-of-type(1) {
-				animation-delay: .2s;
-			}
+		&:nth-of-type(1) {
+			animation-delay: .2s;
+		}
 
-			&:nth-of-type(2) {
-				animation-delay: .5s;
-			}
+		&:nth-of-type(2) {
+			animation-delay: .5s;
+		}
 
-			&:nth-of-type(3) {
-				animation-delay: .7s;
-			}
+		&:nth-of-type(3) {
+			animation-delay: .7s;
 		}
 	}
 }
