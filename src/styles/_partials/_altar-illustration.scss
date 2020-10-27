@@ -2,6 +2,7 @@
 
 .illustration {
 	overflow: visible;
+
 	&__base {
 		opacity: .5;
 	}
@@ -13,14 +14,10 @@
 	&__candles {
 		circle,
 		.fire {
-			transform-box: fill-box;
-			transform-origin: center;
-		}
-
-		circle,
-		.fire {
 			animation: glow 1.5s ease-in-out infinite alternate;
 			filter: url('#dropshadow');
+			transform-box: fill-box;
+			transform-origin: center;
 		}
 
 		circle {
