@@ -26,7 +26,7 @@ const Altar = () => {
     <section className="altar" ref={altarRef}>
       <div className="altar__container container">
         <div className="altar__illustration">
-          <Illustration />
+          <Illustration selectedItem={selectedItem} setSelectedItem={setSelectedItem} />
           <p className="altar__instruction">{altar.instruction}</p>
         </div>
         <div className="altar__box">
