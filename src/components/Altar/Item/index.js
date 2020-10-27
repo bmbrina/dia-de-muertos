@@ -11,8 +11,8 @@ const Item = ({ name, description, colors, itemId }) => {
 
   return (
     <div className="altar__item">
+      <p className="altar__item-name">{name}</p>
       <div className="altar__item-content">
-        <p className="altar__item-name">{name}</p>
         {description.map((desc, index) => (
           <p className="altar__item-desc" key={index} dangerouslySetInnerHTML={{ __html: desc }} />
         ))}

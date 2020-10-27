@@ -8,12 +8,19 @@
 	}
 
 	&__title {
+		animation: fadeIn .5s ease-out forwards;
+		filter: drop-shadow(0 2px 3.4px rgba($color-black, .9));
 		margin: 0 auto;
 		max-width: 270px;
+		opacity: 0;
 	}
 
 	&__subtitle {
+		animation: fadeIn .5s .5s ease-out forwards;
+		font-weight: bold;
 		margin: 10px 0;
+		opacity: 0;
+		text-shadow: 0 2px 3.4px rgba($color-black, .9);
 	}
 
 	&__separator {
@@ -25,7 +32,9 @@
 	}
 
 	&__description {
+		animation: fadeIn .5s 1s ease-out forwards;
 		margin-bottom: 30px;
+		opacity: 0;
 	}
 
 	&__description-title {
@@ -56,7 +65,7 @@
 
 		&__description {
 			margin: 0 auto 50px;
-			max-width: 450px;
+			max-width: 600px;
 		}
 
 		&__description-title {
