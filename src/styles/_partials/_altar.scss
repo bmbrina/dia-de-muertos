@@ -90,6 +90,7 @@
 
 	@include breakpoint-laptop {
 		&__container {
+			align-items: center;
 			display: flex;
 		}
 
@@ -100,6 +101,11 @@
 
 		&__illustration {
 			padding: 0 20px;
+		}
+
+		&__box {
+			max-height: 300px;
+			min-height: 300px;
 		}
 
 		&__instruction {
