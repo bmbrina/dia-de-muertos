@@ -10,6 +10,47 @@
 	}
 }
 
+@keyframes slideIn {
+	from {
+		transform: translateY(-400px);
+	}
+
+	to {
+		transform: translateY(-150px);
+	}
+}
+
+@keyframes altarIntro {
+	0% {
+		left: 25%;
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	50% {
+		left: 25%;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	100% {
+		left: 0;
+		opacity: 1;
+	}
+}
+
+@keyframes translating {
+	from {
+		opacity: 0;
+		transform: translateY(-5px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 @keyframes squeeze {
 	0% {
 		transform: scale(1, .9);

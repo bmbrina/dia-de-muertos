@@ -1,12 +1,19 @@
 $icons-list: 'arrow';
 
 .icon {
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: 25px 25px;
+	background-size: contain;
 	cursor: pointer;
 	display: inline-block;
 	height: 25px;
 	width: 25px;
+
+	&:focus,
+	&:active {
+		border: 0;
+		outline: 0;
+	}
 
 	@each $item in $icons-list {
 		&--#{$item} {
