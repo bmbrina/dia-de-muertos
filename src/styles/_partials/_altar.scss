@@ -59,7 +59,7 @@
 		}
 
 		&::after {
-			background-image: linear-gradient(to bottom, rgba($color-white, 0), $color-purple-neon);
+			background-image: linear-gradient(to bottom, rgba($color-purple-neon, 0), rgba($color-purple-neon, 1));
 			bottom: 0;
 			content: '';
 			height: 25px;
