@@ -1,10 +1,12 @@
 .banner {
+	animation: slideIn 1s ease forwards;
 	filter: drop-shadow(0 2px 3.4px rgba($color-black, .9));
 	position: absolute;
-	top: -20px;
-	width: 80%;
+	transform: translateY(-400px);
+	width: 90%;
 
 	&--right {
+		animation-delay: .5s;
 		opacity: .4;
 		right: -80px;
 	}
@@ -13,9 +15,14 @@
 		left: -40px;
 	}
 
+	@include breakpoint-tablet {
+		margin-top: 60px;
+		top: 0;
+	}
+
 	@include breakpoint-laptop {
+		margin-top: 0;
 		max-width: 1050px;
-		top: -150px;
 		width: 75%;
 	}
 }

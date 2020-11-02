@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import { AppContext } from '../../context/AppContext'
 import Item from './Item'
 import data from '../../data/app.json'
@@ -12,18 +12,29 @@ const Altar = () => {
   const seletedItemIndex = items.indexOf(selectedItem)
   const { altar } = data
   const { elements } = altar
+  const [visible, setVisible] = useState(false)
   const changeItem = (direction) => {
     const newIndex = direction === 'left' ? seletedItemIndex - 1 : seletedItemIndex + 1
     setSelectedItem(items[newIndex])
   }
 
+  const isAltarInViewport = () => {
+    const { top } = altarRef.current.getBoundingClientRect()
+    const isVisible = top >= 0 && top <= window.innerHeight
+    if (isVisible) {
+      setVisible(true)
+      window.removeEventListener('scroll', isAltarInViewport)
+    }
+  }
+
   useEffect(() => {
     setItems(Object.keys(elements))
     appendElementRef({ altar: altarRef })
+    window.addEventListener('scroll', isAltarInViewport)
   }, [elements, setItems])
 
   return (
-    <section className="altar" ref={altarRef}>
+    <section className={`altar${visible ? ' animated' : ''}`} ref={altarRef}>
       <div className="altar__container container">
         <div className="altar__illustration">
           <Illustration selectedItem={selectedItem} setSelectedItem={setSelectedItem} />

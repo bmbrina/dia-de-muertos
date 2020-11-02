@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import Banners from '../Banners'
 import data from '../../data/app.json'
 import Title from '../../images/title.svg'
+import Separator from '../../images/separator.svg'
 import { AppContext } from '../../context/AppContext'
 
 const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)
@@ -20,7 +21,7 @@ const Hero = () => {
           <span className="visually-hidden">{title}</span>
         </h1>
         <h2 className="hero__subtitle">{subtitle}</h2>
-        <hr className="hero__separator" />
+        <img className="hero__separator" src={Separator} alt="" />
         <div className="hero__description">
           <p className="hero__description-title">{description.title}</p>
           {description.text.map((item, index) => (

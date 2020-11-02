@@ -10,7 +10,7 @@ const Item = ({ name, description, colors, itemId }) => {
   const { bannerColors } = data
 
   return (
-    <div className="altar__item">
+    <div className="altar__item animated">
       <p className="altar__item-name">{name}</p>
       <div className="altar__item-content">
         {description.map((desc, index) => (
