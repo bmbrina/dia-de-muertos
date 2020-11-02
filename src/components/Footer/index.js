@@ -11,7 +11,13 @@ const Footer = () => {
         <p className="footer__copyright">
           Copyright &#169; {year} |&nbsp;
           {authors.map((author, index) => (
-            <a className="footer__link" href={author.url} key={index}>
+            <a
+              className="footer__link"
+              href={author.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={index}
+            >
               {author.name}
             </a>
           ))}
